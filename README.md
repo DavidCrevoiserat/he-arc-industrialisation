@@ -11,7 +11,3 @@
 
 # La première étape contient un paramètre ‘with’, a quoi sert-il ?
 Cela permet de transmettre des arguments à l'action setup-python (dans notre cas la version de Python)
-
-
-# Token
-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
