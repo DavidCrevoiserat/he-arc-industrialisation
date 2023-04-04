@@ -21,3 +21,11 @@ Cela permet de transmettre des arguments à l'action setup-python (dans notre ca
 # À quoi sert l’indicateur Quality Gate ?
 L'indicateur Quality Gate permet de savoir si le projet respecte les règles de qualité définies par l'utilisateur. Il permet de rapidement savoir si le projet peut être déployé en production ou non.
 
+# Quelle est la différence entre les sections New code et Overall Code dans l’onglet Summary ?
+New code contient les résultats de l'analyse de code sur le code qui a été ajouté depuis la dernière analyse. Overall Code contient les résultats de l'analyse de code sur l'ensemble du code du projet.
+
+# Y a-t-il des Code Smells ? Si oui, combien et pour quelle(s) raisons(s) ?
+Oui, 3. Car il y a deux paramètre de fonctions qui ne sont pas utilisés et une fonction dont l'implémentation est la même qu'une autre.
+
+# Y a-t-il des Security Hotspots ? Si oui, combien et pour quelle(s) raison(s) ?
+Oui, 1. Car l'image Python run avec l'utilisateur root par défaut.
