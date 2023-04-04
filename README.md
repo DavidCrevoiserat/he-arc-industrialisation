@@ -11,3 +11,13 @@
 
 # La première étape contient un paramètre ‘with’, a quoi sert-il ?
 Cela permet de transmettre des arguments à l'action setup-python (dans notre cas la version de Python)
+
+# Sur l’onglet Summary d’une analyse de code, SonarCloud fournit 4 indicateurs. Quels sont-ils et quelles sont leurs utilités ?
+- Bugs : nombre de bugs détectés par SonarCloud
+- Vulnerabilities : nombre de vulnérabilités détectées par SonarCloud
+- Code Smells : nombre de code smells détectés par SonarCloud. Un code smell est un code qui n'est pas forcément incorrect, mais qui peut être amélioré.
+- Security Hotspots : nombre de hotspots de sécurité détectés par SonarCloud. Un hotspot de sécurité est un code qui peut potentiellement être une faille de sécurité.
+
+# À quoi sert l’indicateur Quality Gate ?
+L'indicateur Quality Gate permet de savoir si le projet respecte les règles de qualité définies par l'utilisateur. Il permet de rapidement savoir si le projet peut être déployé en production ou non.
+
